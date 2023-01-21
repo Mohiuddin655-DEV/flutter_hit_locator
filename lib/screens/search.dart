@@ -17,6 +17,7 @@ class Search extends StatelessWidget {
     final geoService = GeoLocatorService();
     final markerService = MarkerService();
 
+
     return Provider(
       create: (context) => placesProvider,
       child: Scaffold(
